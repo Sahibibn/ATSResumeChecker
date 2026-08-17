@@ -1,5 +1,5 @@
 import { useMemo, useRef, useState } from "react";
-import { extractText } from "../Utils/ReadPdf";
+import { extractText } from "../Utils/ReadPDF";
 
 const MIN_JOB_DESCRIPTION_LENGTH = 40;
 const hasGeminiApiKey = Boolean(import.meta.env.VITE_API_KEY);
