@@ -1,6 +1,6 @@
 const MAX_PDF_SIZE = 10 * 1024 * 1024;
 
-let pdfJsPromise;
+let pdfjsPromise;
 
 const getPdfJs = async () => {
   if (!pdfJsPromise) {
